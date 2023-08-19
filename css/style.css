@@ -475,3 +475,14 @@ ul {
     width: 100%;
     padding-top: 40px
 }
+
+/* ============================= */
+
+.imgModal {
+    width: 100dvh;
+    height: 60dvh;
+}
+
+#msterPlan {
+    cursor: pointer;
+}

@@ -45,8 +45,12 @@
     }
 
     .enqBtn {
-        margin-left: 50%;
         margin-bottom: 10px;
+    }
+
+    .imgMob {
+        width: 250px;
+        height: 200px;
     }
 
     .over-img,

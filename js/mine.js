@@ -43,34 +43,5 @@ function sendE(formattedData){
 
 
 
-
-
-
-
-
-
-
-// document.getElementById("myForm").addEventListener("submit", function(event) {
-//     event.preventDefault(); // Prevent form submission
-  
-//     var name = document.getElementById("name").value;
-//     var email = document.getElementById("email").value;
-  
-//     // Construct the email message
-//     var message = "Name: " + name + "\n";
-//     message += "Email: " + email + "\n";
-  
-//     // Send the form data to the server
-//     var xhr = new XMLHttpRequest();
-//     xhr.open("POST", "send_email.php", true);
-//     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-//     xhr.onreadystatechange = function() {
-//       if (xhr.readyState === 4) {
-//         alert("Message sent successfully!");
-//         document.getElementById("myForm").reset(); // Reset the form
-//       } else if (xhr.readyState === 4 && xhr.status !== 200) {
-//         alert("An error occurred while sending the message.");
-//       }
-//     };
-//     xhr.send("name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email));
-//   });
+// ========= JQUERY Photo FULL============
+$(document).ready(function(){$("#msterPlan").click(function(){this.requestFullscreen()})});
