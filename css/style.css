@@ -1,0 +1,477 @@
+html {
+    scroll-behavior: smooth
+}
+
+@font-face {
+    font-family: futurabook;
+    src: url(../fonts/futura_book_bt.woff2) format('woff2'), url(../fonts/futura_book_bt.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --colorPrimary : #007bff;
+    --colorSecondary: #6c757d; 
+}
+
+body {
+    font-family: futurabook !important;
+}
+
+.ph-no {
+    margin: 0px 5px;
+    border: 2px solid rgb(45, 39, 39);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0
+}
+
+/* ====================================== */
+/* ====================================== */
+/* =====================FLAGS IT ========== */
+.iti__flag {background-image: url("../img/flags/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("../img/flags/flags@2x.png");}
+}
+
+.iti {
+    width: 100% !important;
+}
+/* ====================================== */
+
+/* ==================MAIN TITLEE========= */
+.main-title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.main-title h4 {
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 600
+}
+
+.main-title span {
+    color: #000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 1px solid #000
+}
+
+/* ====================================== */
+
+.navbar {
+    --bs-navbar-padding-y: 0 !important;
+}
+
+.top-bar {
+    background: rgb(255 255 255/85%);
+    z-index: 99999;
+    box-shadow: 5px 2px 6px 0 rgb(0 0 0/12%), inset 0 -1px 0 0 #dadce0
+}
+
+.top-bar .nav-link {
+    color: #0e0e0e;
+    font-weight: 400;
+    padding: 15px 20px
+}
+
+.nav-link {
+    transition: all 0.3s;
+    color: black !important;
+}
+.nav-link:hover {
+    transform: scale(1.1)
+}
+
+/* ========================================= */
+/* ========================================= */
+/* ========================================= */
+
+.mbl-view-img {
+    display: none
+}
+
+.banner-img img {
+    height: 100%;
+    margin-top: 7px;
+}
+
+.banner-box {
+    position: relative;
+    width: 100%;
+    margin-top: 75px;
+    padding-right: 15px;
+}
+
+.banner-form-part {
+    width: 300px;
+    position: absolute;
+    background: #fff;
+    right: 0;
+    top: 0;
+    height: 100%
+}
+
+.formMobile {
+    display: none;
+}
+
+/* ========== SIDE FORM PART ================== */
+.micro-side {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 1031;
+}
+
+.og-block {
+    margin: 0 0.5vw;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    background-image: -webkit-linear-gradient(left, #444, #1a1a1a);
+    background-image: -moz-linear-gradient(left, #444, #1a1a1a);
+    background-image: -ms-linear-gradient(left, #444, #1a1a1a);
+    background-image: -o-linear-gradient(left, #444, #1a1a1a);
+    background-image: linear-gradient(left, #444, #1a1a1a);
+}
+
+.nav-fill .nav-item {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.effetGradient,
+.effetGradient:hover {
+    text-shadow: 0 3px 6px var(--colorPrimary);
+    background-color: var(--colorSecondary);
+    background: linear-gradient(
+        -45deg,
+        var(--colorPrimary),
+        var(--colorSecondary),
+        var(--colorPrimary),
+        var(--colorSecondary)
+    );
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 3s ease infinite;
+    -moz-animation: Gradient 3s ease infinite;
+    animation: Gradient 3s ease infinite;
+    color: var(--colorBtn);
+    border: none;
+}
+
+/* ============ THE BODYY ==================== */
+.theBody {
+    width: 80%;
+}
+
+
+
+.form-heading h1 {
+    font-size: 24px;
+    text-align: center
+}
+
+.form-offer {
+    text-align: center
+}
+
+.form-offer b {
+    display: block
+}
+
+.form-heading {
+    margin-bottom: 20px
+}
+
+.form-container {
+    border-radius: 5px 5px 0 0;
+    border-top: none;
+    padding: 10px;
+}
+
+.form-container h4 {
+    text-align: center;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid #000;
+    border-width: 50%;
+    color: #050709
+}
+
+.terms {
+    color: #000
+}
+
+.form-heading span {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 5px
+}
+
+.cont-number,
+.form-content {
+    padding: 0 10px
+}
+
+.country-code select,
+.name-cont .form-control,
+.m-number-cont .form-control,
+.register-submit {
+    height: calc(2.3em + .75rem + 0px);
+    width: 100%;
+    font-size: .875em;
+    border-radius: 0
+}
+
+.form-control {
+    border: 1px solid #949494
+}
+
+.country-code select {
+    padding: 0 10px;
+    background: #fff
+}
+
+.term-condition {
+    font-size: .875em;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left
+}
+
+.country-code,
+.name-cont,
+.m-number-cont {
+    margin-bottom: 15px;
+    position: relative
+}
+
+.btn-primary{
+    background-color: black !important;
+    border-color: #1d9acc;
+    color: white !important;
+}
+
+/* ===================================== */
+/* ===================================== */
+/* ===============CTA SECTION=================== */
+.dowload-brochure .cta-content {
+    width: 100%
+}
+
+.cta-section,
+.dowload-brochure {
+    background: #f3f3f3;
+    padding: 40px 0;
+    color: #fff;
+    clear: both;
+    position: relative;
+    margin-top: 80px
+}
+
+.cta-img {
+    width: 320px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.cta-box {
+    position: relative;
+    z-index: 1
+}
+
+.request {
+    color: #484848
+}
+
+.cta-content {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    width: calc(100% - 330px)
+}
+
+.cta-content h3 {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 0 20px;
+    vertical-align: middle
+}
+
+.cta-content button {
+    border-color: #fff
+}
+
+/* ============== PROPERTY LIST ========== */
+/* .enqBtn {
+    margin-left: 70%;
+} */
+
+
+/* ============== TABLE ================== */
+.price-hd {
+    display: flex;
+    justify-content: center;
+    background: #f3f3f3;
+    align-items: center;
+    flex-flow: inherit;
+    width: 100%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px
+}
+
+.price-hd .col {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 10px 0
+}
+
+.price-hd .col.unit {
+    border-right: 1px solid #fff
+}
+
+.price-details {
+    display: flex;
+    justify-content: space-between;
+    width: 95%
+}
+
+.price-content .form-group {
+    display: flex
+}
+
+.price-content .name-cont {
+    width: 20%;
+    margin: 0 10px
+}
+
+.price-content .form-control,
+.price-content select {
+    border: none;
+    border-bottom: 1px solid
+}
+
+.price-content .contry-code-mb-number {
+    width: 55%;
+    display: flex
+}
+
+.price-content .country-code {
+    margin: 0 10px 0 0;
+    width: 40%
+}
+
+.price-content .m-number-cont {
+    width: 59%;
+    margin: 0 10px 0 0
+}
+
+.price-content .register-submit {
+    width: 20%
+}
+
+.accordion-header {
+    padding-top: 0
+}
+
+.price-plan .accordion-header .accordion-button {
+    background: #f3f3f3
+}
+
+.price-details span {
+    display: block;
+    text-align: center;
+    color: #000
+}
+
+.price-details .More-details {
+    color: #0c63e4
+}
+
+/* =============================== */
+/* =========GALLERY CAROUSAL======= */
+/* =============================== */
+
+.carousel-item img {
+    margin: auto;
+    width: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    background-color: rgba(21, 20, 20, 0.508);
+    width: 50px;
+}
+
+
+/* ================================ */
+/* =========MOBILE BUTTONS FOOT========== */
+/* ================================ */
+
+.mobile-section {
+    display: none !important;
+    }
+
+.col-sm-lol {
+    display: inline;
+    width: 30%;
+}
+
+/* =========================== */
+/* =========CTA VIDEO TOURR============ */
+/* =========================== */
+.cta-video-section {
+    background: linear-gradient(rgba(70, 20, 20, 0.232), rgba(0, 0, 0, 0.133)), url(../img/Rustomjee_urbania_Party_Hall_stilt.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background-position: center;
+    margin-top: 80px
+}
+
+.cta-video-section:after {
+    background: hsl(0deg 0% 0%/26%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ""
+}
+
+.cta-video-section .cta-content {
+    width: 100%;
+    padding-top: 40px
+}

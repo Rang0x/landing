@@ -1,0 +1,132 @@
+@media screen and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+
+    .p-5 {
+        padding: 0 !important;
+    }
+
+    .mb-5 {
+        margin-bottom: 0 !important;
+    }
+
+    .logo1 {
+        display:none;
+    }
+
+    .dtp-view-img {
+        display: none;
+    }
+
+    .mbl-view-img {
+        display: block;
+        margin-top: 0 !important;
+    }
+
+    .formMobile {
+        display: block;
+    }
+
+    .micro-side {
+        display: none;
+    }
+
+    .theBody {
+        width: 100%;
+    }
+
+    .banner-box {
+        padding-right: 0;
+    }
+
+    .top-bar {
+        width: 100%;
+    }
+
+    .enqBtn {
+        margin-left: 50%;
+        margin-bottom: 10px;
+    }
+
+    .over-img,
+    .overv-box, .overview {
+        text-align: center;
+        width: 100%;
+    }
+
+    .over-img {
+        margin-bottom: 20px
+    }
+
+    .overv-box ul {
+        text-align: left
+    }
+
+    .cta-box {
+        text-align: center
+    }
+
+    .cta-content,
+    .cta-content h3 {
+        width: 100%
+    }
+
+    .cta-content h3 {
+        margin-right: 0;
+        font-size: 18px
+    }
+
+    .prop-search-listing {
+        padding: 0px 15px;
+    }
+
+    .price-plan {
+        margin-top: 20px;
+    }
+
+    .mobile-section {
+        display: block !important;
+        }
+
+    #preBtn {
+        width: 100% !important;
+    }
+
+    #contactForm {
+        width: 90% !important;
+        margin: auto;
+    }
+
+    .pCtn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mPlan{
+        width: 100% !important;
+    }
+
+    .carousel.slide, .location img{
+        width: 100% !important;
+    }
+
+    .lastformM {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 679px){
+    .mobile-section {
+    background: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    display: block !important;
+    }
+}
