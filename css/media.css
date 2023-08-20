@@ -24,6 +24,10 @@
         margin-top: 0 !important;
     }
 
+    .banner-img {
+        margin-top: 20px
+    }
+
     .formMobile {
         display: block;
     }
