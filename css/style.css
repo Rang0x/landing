@@ -486,3 +486,19 @@ ul {
 #msterPlan {
     cursor: pointer;
 }
+
+
+/* =============Wadi Jebal Mp========= */
+#wPlan {
+    transform: rotate(90deg);
+    width: 410px;
+    height: 400px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+.launchS {
+    margin-top: -10px;
+}

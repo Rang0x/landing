@@ -122,6 +122,16 @@
     .lastformM {
         margin-bottom: 50px;
     }
+
+    #wPlan {
+        max-width:100%;
+        height:auto;
+        transform: rotate(180deg) !important;
+    }
+
+    .mPlanMob {
+        flex-direction: column-reverse;
+    }
 }
 
 

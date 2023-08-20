@@ -13,7 +13,7 @@ function handelForm(e){
     let formattedData = '';
 
     for (let pair of formData.entries()) {
-      formattedData += `${pair[0]}: ${pair[1]}\n\n\n`;
+      formattedData += `${pair[0]}: ${pair[1]} <br>`;
     }
 
     // Use the 'formattedData' string in your email body
@@ -21,9 +21,6 @@ function handelForm(e){
     sendE(formattedData);
     console.log("sucess");
 }
-
-
-
 
 
 function sendE(formattedData){
@@ -39,6 +36,14 @@ function sendE(formattedData){
   );
 }
 
+// =======================================
+// =======================================
+// =======================================
+
+$(".navbar-nav a").click(function(){
+  var sectionID = $(this).attr("href");
+    $("html,body").animate({scrollTop: $(`${sectionID}`).offset().top}, 100)
+});
 
 
 
