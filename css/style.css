@@ -502,3 +502,8 @@ input[type="number"]::-webkit-inner-spin-button {
 .launchS {
     margin-top: -10px;
 }
+
+.w-carousal {
+    width: 894px !important;
+    height: 410px !important;
+}

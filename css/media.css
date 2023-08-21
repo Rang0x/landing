@@ -132,6 +132,11 @@
     .mPlanMob {
         flex-direction: column-reverse;
     }
+
+    .w-carousal {
+        width: 275px !important;
+        height: 130px !important;
+    }
 }
 
 

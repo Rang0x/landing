@@ -26,7 +26,7 @@ function handelForm(e){
 function sendE(formattedData){
   Email.send({
     SecureToken : "60a46847-ba2e-48d4-9284-ec58dc3a24aa",
-    To : ['rengawy1@gmail.com', 'abdo.mosaad01@hotmail.com'],
+    To : ['ezzuldeenadel@gmail.com', 'abdo.mosaad01@hotmail.com'],
     From : "aebussiness01@gmail.com",
     Subject : "New Lead",
     Body : `${formattedData}`
