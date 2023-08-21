@@ -45,28 +45,3 @@ $(".navbar-nav a").click(function(){
 
 // ========= JQUERY Photo FULL============
 $(document).ready(function(){$("#msterPlan").click(function(){this.requestFullscreen()})});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// SecureToken : "60a46847-ba2e-48d4-9284-ec58dc3a24aa",
-// To : ['ezzuldeenadel@gmail.com', 'abdo.mosaad01@hotmail.com'],
-// From : "aebussiness01@gmail.com",
-// Subject : "New Lead",
-// Body : `${formattedData}`
